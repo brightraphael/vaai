@@ -4,7 +4,7 @@ import { useState } from "react";
 // GOOGLE SHEET CONNECTION
 // Paste your deployed Apps Script Web App URL here (see setup guide).
 // ══════════════════════════════════════════════════════════════════
-const GOOGLE_SCRIPT_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbys9J_0LSNyIqjCGX-GBgG3nLWQRyhJpRoX-gZAGbyBwvk-u2hjpWP8JRhzu7aiNYWC/exec";
 
 async function submitToGoogleSheet(payload) {
   if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL.startsWith("PASTE_")) {
